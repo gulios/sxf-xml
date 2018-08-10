@@ -16,7 +16,7 @@ The XML component helps with XML data.
 
 
 ```php
-$this->xmlDataSXF = new SimpleXMLHelper('<xml/>');
+$this->xmlDataSXF = new SimpleXML('<xml/>');
 $test = $this->xmlDataSXF->addChild('test');
 $test->addAttribute('name', 'someValue');
 ```
